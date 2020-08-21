@@ -8,18 +8,3 @@
   <input type="text" id="search" name="search">
   <button type="submit" class="btn btn-primary">Submit!</button>
 </form>
-
-@using DreamClient.Models
-
-<ol>
-@foreach(Dream Dream in Model)
-{
-  <ul>
-    <li>Title: @Dream.Title</li>
-    <li>Date: @Dream.Date</li>
-    <li>User: @Dream.UserName</li>
-    <li>Body: @Dream.Body</li>
-  </ul>
-  <br/>
-}
-</ol>

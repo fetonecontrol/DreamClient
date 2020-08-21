@@ -1,5 +1,6 @@
 body { 
-  background-image: url("../img/background.jpg");
+  /* background-image: url("../img/background.jpg"); */
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   background-color: rgb(167, 101, 131);
   background-blend-mode: multiply;
   background-size: 100% 100%;
@@ -9,13 +10,13 @@ body {
 }
 .section {
   padding: 25px 25px;
-  height: 100vh;
+  height: 100%;
   display: flex;
 }
 .box {
   position: relative;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   padding: 50px;
   padding-top: 50px;
   background: rgba(255, 255, 255, .75);
