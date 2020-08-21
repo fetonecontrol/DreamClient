@@ -1887,13 +1887,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Index.cshtml",
+      "TargetPath": "Views\\Dreams\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams.cshtml/Index.cshtml",
-      "TargetPath": "Views\\Dreams.cshtml\\Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Details.cshtml",
+      "TargetPath": "Views\\Dreams\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
