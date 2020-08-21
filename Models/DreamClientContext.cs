@@ -5,6 +5,6 @@ namespace DreamClient.Models
 {
     public class DreamClientContext : IdentityDbContext<ApplicationUser>
     {
-      // Don't change code in here.
+
     }
 }
