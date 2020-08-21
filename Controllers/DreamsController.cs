@@ -30,6 +30,10 @@ namespace DreamClient.Controllers
           }
           return View(searchObject);
         }
+        public IActionResult Create(string title, string body)
+        {
+          return RedirectToAction("Index")
+        }
 
     }
 }
