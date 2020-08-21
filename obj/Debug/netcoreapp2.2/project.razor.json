@@ -1877,6 +1877,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams.cshtml/Index.cshtml",
+      "TargetPath": "Views\\Dreams.cshtml\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
