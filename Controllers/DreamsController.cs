@@ -30,8 +30,10 @@ namespace DreamClient.Controllers
           }
           return View(searchObject);
         }
-        public IActionResult Create(string title, string body)
+        [HttpPost]
+        public IActionResult Create(Dream dream)
         {
+          Dream.Post(dream)
           return RedirectToAction("Index")
         }
 
