@@ -3,7 +3,7 @@ body {
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   background-color: rgb(167, 101, 131);
   background-blend-mode: multiply;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
