@@ -1872,6 +1872,11 @@
   "RootNamespace": "DreamClient",
   "Documents": [
     {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Filter.cshtml",
+      "TargetPath": "Views\\Dreams\\Filter.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Account/Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
@@ -1882,18 +1887,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Create.cshtml",
+      "TargetPath": "Views\\Dreams\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Account/Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Index.cshtml",
-      "TargetPath": "Views\\Dreams\\Index.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Shared/NavBar.cshtml",
+      "TargetPath": "Views\\Shared\\NavBar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Details.cshtml",
-      "TargetPath": "Views\\Dreams\\Details.cshtml",
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Index.cshtml",
+      "TargetPath": "Views\\Dreams\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1904,6 +1914,11 @@
     {
       "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Dreams/Delete.cshtml",
+      "TargetPath": "Views\\Dreams\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,21 +1,19 @@
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DreamClient.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DreamClient.Controllers
 {
+    [Authorize]
     public class DreamsController : Controller
     {
         public IActionResult Index()
         {
-            var allDreams = Dream.GetDreams();
-            return View(allDreams);
+          var allDreams = Dream.GetDreams();
+          return View(allDreams);
         }
-        public IActionResult Details(string search)
+        public IActionResult Filter(string search)
         {
           List<Dream> searchObject = new List<Dream> {};
           var allDreams = Dream.GetDreams();

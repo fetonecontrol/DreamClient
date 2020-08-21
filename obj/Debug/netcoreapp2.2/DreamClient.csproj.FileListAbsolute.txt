@@ -31,5 +31,8 @@
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.g.cshtml.cs
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.g.cshtml.cs
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.g.cshtml.cs
-/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams/Details.g.cshtml.cs
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams/Index.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams/Create.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams/Delete.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Shared/NavBar.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams/Filter.g.cshtml.cs

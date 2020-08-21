@@ -45,23 +45,19 @@ namespace DreamClient
 
     public void Configure(IApplicationBuilder app)
     {
-      app.UseStaticFiles();
-
-      app.UseDeveloperExceptionPage();
-
-      app.UseAuthentication();
-
-      app.UseMvc(routes =>
-      {
+        app.UseStaticFiles();
+        app.UseDeveloperExceptionPage();
+        app.UseAuthentication();
+        app.UseMvc(routes =>
+        {
         routes.MapRoute(
-          name: "default",
-          template: "{controller=Home}/{action=Index}/{id?}");
-      });
-
-      app.Run(async (context) =>
-      {
+            name: "default",
+            template: "{controller=Home}/{action=Index}/{id?}");
+        });
+        app.Run(async (context) =>
+        {
         await context.Response.WriteAsync("Something went wrong!");
-      });
+        });
     }
   }
 }

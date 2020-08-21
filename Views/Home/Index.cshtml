@@ -1,17 +1,11 @@
 ﻿@{
   Layout = "_Layout";
 }
-@Html.ActionLink("Register", "Register", "Account") | @Html.ActionLink("Log in", "Log in", "Account")
+<h1>Dream big, or dream small, because if your don't</h1>
+<h1>you'll never dream at all.</h1>
 
 <form action="/Home/Details" method="post">
   <label for="search">Search</label>
   <input type="text" id="search" name="search">
   <button type="submit" class="btn btn-primary">Submit!</button>
 </form>
-
-<h1>Dream big, or dream small, because if your don't</h1>
-<h1>you'll never dream at all.</h1>
-
-
-
-<button type="button" class="btn btn-light">@Html.ActionLink("Enter", "Index", "Account")</button>

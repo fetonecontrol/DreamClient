@@ -11,13 +11,13 @@
     <p>Hello @User.Identity.Name!</p>
     @using (Html.BeginForm("LogOff", "Account"))
     {
-        @Html.ActionLink("See all of your dreams", "Details", "Dreams")<br>
+        @Html.ActionLink("See all of the dreams currently logged", "Index", "Dreams")<br>
         <input type="submit" class="btn btn-dark" value="Log out" />
     }
 }
 else
 {
     <p>@Html.ActionLink("Register", "Register")</p>
-    <p>@Html.ActionLink("Log in", "Login")</p>
+    <p>@Html.ActionLink("Login", "Login")</p>
     
 }
