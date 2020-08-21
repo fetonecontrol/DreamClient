@@ -1872,6 +1872,21 @@
   "RootNamespace": "DreamClient",
   "Documents": [
     {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Account/Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Account/Index.cshtml",
+      "TargetPath": "Views\\Account\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Account/Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

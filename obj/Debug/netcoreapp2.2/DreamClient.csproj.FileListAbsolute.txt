@@ -21,7 +21,6 @@
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.TagHelpers.output.cache
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.RazorCoreGenerate.cache
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
-/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.RazorTargetAssemblyInfo.cache
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.RazorTargetAssemblyInfo.cs
@@ -29,3 +28,7 @@
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.dll
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.pdb
 /Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/DreamClient.csproj.CopyComplete
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.g.cshtml.cs
+/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/Debug/netcoreapp2.2/Razor/Views/Dreams.cshtml/Index.g.cshtml.cs

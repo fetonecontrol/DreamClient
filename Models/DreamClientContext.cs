@@ -5,6 +5,6 @@ namespace DreamClient.Models
 {
     public class DreamClientContext : IdentityDbContext<ApplicationUser>
     {
-
+      public DreamClientContext(DbContextOptions options) : base(options) {}
     }
 }
