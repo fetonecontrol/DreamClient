@@ -12,6 +12,16 @@ namespace DreamClient.Controllers
           var allDreams = Dream.GetDreams();
           return View(allDreams);
         }
+        public IActionResult Create()
+        {
+          return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Dream dream)
+        {
+          Dream.Post(dream);
+          return RedirectToAction("Index");
+        }
         public IActionResult Filter(string search)
         {
           List<Dream> searchObject = new List<Dream> {};
@@ -22,22 +32,8 @@ namespace DreamClient.Controllers
             {
               searchObject.Add(allDreams[i]);
             }
-            else
-            {
-              searchObject.Add(allDreams[i]);
-            }
           }
           return View(searchObject);
-        }
-        public IActionResult Create()
-        {
-          return View();
-        }
-        [HttpPost]
-        public IActionResult Create(Dream dream)
-        {
-          Dream.Post(dream);
-          return RedirectToAction("Index");
         }
 
     }

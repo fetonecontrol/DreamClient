@@ -1,3 +1,15 @@
 @{
   Layout = "_Layout";
 }
+@using DreamClient.Models
+<h1>Here are dreams that match your query</h1>
+<ol>
+@foreach(Dream Dream in Model)
+{
+  <ul>
+    <li>Title: @Dream.Title</li>
+    <li>Body: @Dream.Body</li>
+  </ul>
+  <br/>
+}
+</ol>
