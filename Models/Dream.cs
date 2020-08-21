@@ -1,8 +1,8 @@
 using System.Collections.Generic;
+using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-using DreamClient.Models;
 
 namespace DreamClient.Models
 {
@@ -19,8 +19,8 @@ namespace DreamClient.Models
       var apiCallTask = ApiHelper.ApiCall();
       var result = apiCallTask.Result;
 
-      JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
-      List<Dream> dreamList = JsonConvert.DeserializeObject<List<Dream>>(jsonResponse["results"].ToString());
+      JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
+      List<Dream> dreamList = JsonConvert.DeserializeObject<List<Dream>>(jsonResponse.ToString());
 
       return dreamList;
     }

@@ -7,8 +7,8 @@ namespace DreamClient.Models
   {
     public static async Task<string> ApiCall()
     {
-      RestClient client = new RestClient("http://localhost:5000/api/Dreams/");
-      RestRequest request = new RestRequest($"dreams", Method.GET);
+      RestClient client = new RestClient("http://localhost:5000/api");
+      RestRequest request = new RestRequest($"Dreams", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
