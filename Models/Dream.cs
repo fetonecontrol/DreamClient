@@ -9,10 +9,11 @@ namespace DreamClient.Models
   public class Dream
     {
       public int DreamId { get; set; }
-      public int UserId { get; set; }
+      public DateTime Date { get; set; }
       public string UserName { get; set; }
       public string Title { get; set; }
       public string Body { get; set; }
+
 
       public static List<Dream> GetDreams()
       {

@@ -1,6 +1,13 @@
 @{
   Layout = "_Layout";
 }
+<h1> Find the patterns:</h1>
+
+<form action="/Dreams/Filter" method="post">
+  <label for="search">Search</label>
+  <input type="text" id="search" name="search">
+  <button type="submit" class="btn btn-primary">Submit!</button>
+</form>
 
 @using DreamClient.Models
 
@@ -8,8 +15,10 @@
 @foreach(Dream Dream in Model)
 {
   <ul>
-    <li>Country: @Dream.Title</li>
-    <li>Place Name: @Dream.Body</li>
+    <li>Title: @Dream.Title</li>
+    <li>Date: @Dream.Date</li>
+    <li>User: @Dream.UserName</li>
+    <li>Body: @Dream.Body</li>
   </ul>
   <br/>
 }
