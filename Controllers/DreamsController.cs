@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace DreamClient.Controllers
 {
-    [Authorize]
     public class DreamsController : Controller
     {
         public IActionResult Index()
@@ -30,11 +29,15 @@ namespace DreamClient.Controllers
           }
           return View(searchObject);
         }
+        public IActionResult Create()
+        {
+          return View();
+        }
         [HttpPost]
         public IActionResult Create(Dream dream)
         {
-          Dream.Post(dream)
-          return RedirectToAction("Index")
+          Dream.Post(dream);
+          return RedirectToAction("Index");
         }
 
     }

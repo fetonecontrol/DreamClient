@@ -15,15 +15,21 @@ namespace DreamClient.Models
       public string Body { get; set; }
 
       public static List<Dream> GetDreams()
-    {
-      var apiCallTask = ApiHelper.ApiCall();
-      var result = apiCallTask.Result;
+      {
+        var apiCallTask = ApiHelper.ApiCall();
+        var result = apiCallTask.Result;
 
-      JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
-      List<Dream> dreamList = JsonConvert.DeserializeObject<List<Dream>>(jsonResponse.ToString());
+        JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
+        List<Dream> dreamList = JsonConvert.DeserializeObject<List<Dream>>(jsonResponse.ToString());
 
-      return dreamList;
-    }
+        return dreamList;
+      }
+      public static void Post(Dream dream)
+      {
+        string jsonPlace = JsonConvert.SerializeObject(dream);
+        var apiCallTask = ApiHelper.Post(jsonPlace);
+      }
+
     }
     
 }
