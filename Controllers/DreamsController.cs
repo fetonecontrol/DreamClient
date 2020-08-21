@@ -12,7 +12,8 @@ namespace DreamClient.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var allDreams = Dream.GetDreams();
+            return View(allDreams);
         }
         public IActionResult Details(string search)
         {

@@ -1,0 +1,13 @@
+@using DreamClient.Models
+
+
+<ol>
+@foreach(Dream Dream in Model)
+{
+  <ul>
+    <li>Country: @Dream.Title</li>
+    <li>Place Name: @Dream.Body</li>
+  </ul>
+  <br/>
+}
+</ol>
