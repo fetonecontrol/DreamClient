@@ -12182,11 +12182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/DreamClient.csproj",
+      "projectUniqueName": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamClient.Solution/DreamClient/DreamClient.csproj",
       "projectName": "DreamClient",
-      "projectPath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/DreamClient.csproj",
+      "projectPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamClient.Solution/DreamClient/DreamClient.csproj",
       "packagesPath": "/Users/frederickernest/.nuget/packages/",
-      "outputPath": "/Users/frederickernest/Desktop/Epicodus/DreamClient.Solution/DreamClient/obj/",
+      "outputPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamClient.Solution/DreamClient/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
